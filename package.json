@@ -15,6 +15,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "release": "standard-version",
+    "release:dry": "standard-version --dry-run",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -34,5 +36,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "standard-version": "^9.1.1"
   }
 }
