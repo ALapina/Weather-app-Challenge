@@ -16,6 +16,8 @@
     "lint": "eslint src/**/*.js && prettier --check src/**/*.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
+    "release": "standard-version",
+    "release:dry": "standard-version --dry-run",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -50,6 +52,7 @@
   "devDependencies": {
     "husky": "^5.1.3",
     "lint-staged": "^10.5.4",
-    "prettier": "^2.2.1"
+    "prettier": "^2.2.1",
+    "standard-version": "^9.1.1"
   }
 }
