@@ -1,70 +1,30 @@
-# Getting Started with Create React App
+# <img src="https://emojis.slackmojis.com/emojis/images/1614289491/15051/meow_squee.png?1614289491" width="30"/> Weather app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Design preview for the Weather app coding challenge](/src/images/preview.jpg)
 
-## Available Scripts
+<!-- <img src="./src/images/preview.jpg" width="70%"/> -->
 
-In the project directory, you can run:
+## Welcome! 👋
 
-### `yarn start`
+**WORK IN PROGRESS!!!**
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is a solution to the [Weather app](https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv) challenge on devchallenges.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🔗 Live Link / Demo Link:
 
-### `yarn test`
+- https://alapina.github.io/Weather-app-Challenge/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Technologies Used:
 
-### `yarn build`
+- 💅 [Styled components](https://styled-components.com/)
+- <img src="https://emojis.slackmojis.com/emojis/images/1473950148/1161/react.png?1473950148" width="15"/> [React hooks](https://reactjs.org/docs/hooks-intro.html) (useState , useEffect)
+- Api requests with [axios](https://github.com/axios/axios)
+- [GitHub action](https://github.com/JamesIves/github-pages-deploy-action) for automatically deploying a project to GitHub pages.
+- Testing with [Jest](https://jestjs.io/) and [Cypress](https://www.cypress.io/)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Additional
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Styled components
+  - css color variables (themes) https://styled-components.com/docs/advanced#theming
+  - global styles https://scalablecss.com/styled-components-global-styles/
+  - styled-normalize https://github.com/sergeysova/styled-normalize
