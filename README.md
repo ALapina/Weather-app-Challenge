@@ -19,7 +19,7 @@ This is a solution to the [Weather app](https://devchallenges.io/challenges/mM1U
 - 💅 [Styled components](https://styled-components.com/)
 - <img src="https://emojis.slackmojis.com/emojis/images/1473950148/1161/react.png?1473950148" width="15"/> [React hooks](https://reactjs.org/docs/hooks-intro.html) (useState , useEffect)
 - Api requests with [axios](https://github.com/axios/axios)
-- [GitHub action](https://github.com/JamesIves/github-pages-deploy-action) for automatically deploying a project to GitHub pages.
+- [GitHub action](https://github.com/JamesIves/github-pages-deploy-action) for automatically deploying the project to GitHub pages.
 - Testing with [Jest](https://jestjs.io/) and [Cypress](https://www.cypress.io/)
 
 ## Additional
