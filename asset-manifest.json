@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.js": "/Weather-app-Challenge/static/js/main.84baeaca.chunk.js",
-    "main.js.map": "/Weather-app-Challenge/static/js/main.84baeaca.chunk.js.map",
+    "main.js": "/Weather-app-Challenge/static/js/main.6169b676.chunk.js",
+    "main.js.map": "/Weather-app-Challenge/static/js/main.6169b676.chunk.js.map",
     "runtime-main.js": "/Weather-app-Challenge/static/js/runtime-main.ea0a1451.js",
     "runtime-main.js.map": "/Weather-app-Challenge/static/js/runtime-main.ea0a1451.js.map",
-    "static/js/2.ab82ee66.chunk.js": "/Weather-app-Challenge/static/js/2.ab82ee66.chunk.js",
-    "static/js/2.ab82ee66.chunk.js.map": "/Weather-app-Challenge/static/js/2.ab82ee66.chunk.js.map",
+    "static/js/2.ac4a22db.chunk.js": "/Weather-app-Challenge/static/js/2.ac4a22db.chunk.js",
+    "static/js/2.ac4a22db.chunk.js.map": "/Weather-app-Challenge/static/js/2.ac4a22db.chunk.js.map",
     "index.html": "/Weather-app-Challenge/index.html",
-    "static/js/2.ab82ee66.chunk.js.LICENSE.txt": "/Weather-app-Challenge/static/js/2.ab82ee66.chunk.js.LICENSE.txt"
+    "static/js/2.ac4a22db.chunk.js.LICENSE.txt": "/Weather-app-Challenge/static/js/2.ac4a22db.chunk.js.LICENSE.txt",
+    "static/media/Shower.ea1e199a.png": "/Weather-app-Challenge/static/media/Shower.ea1e199a.png"
   },
   "entrypoints": [
     "static/js/runtime-main.ea0a1451.js",
-    "static/js/2.ab82ee66.chunk.js",
-    "static/js/main.84baeaca.chunk.js"
+    "static/js/2.ac4a22db.chunk.js",
+    "static/js/main.6169b676.chunk.js"
   ]
 }
