@@ -25,6 +25,11 @@ This is a solution to the [Weather app](https://devchallenges.io/challenges/mM1U
 ## Additional
 
 - Styled components
+
   - css color variables (themes) https://styled-components.com/docs/advanced#theming
   - global styles https://scalablecss.com/styled-components-global-styles/
   - styled-normalize https://github.com/sergeysova/styled-normalize
+
+- react-icons
+  - library with icons https://react-icons.github.io/react-icons
+  - npm https://www.npmjs.com/package/react-icons
