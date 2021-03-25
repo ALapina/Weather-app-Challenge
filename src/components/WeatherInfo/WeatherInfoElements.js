@@ -50,7 +50,7 @@ export const WeatherCondition = styled.h3`
   }
 `;
 
-export const Date = styled.div`
+export const CurrentDate = styled.div`
   font-size: 1.125rem;
   line-height: 21px;
   color: ${({ theme }) => theme.colors.grey};
