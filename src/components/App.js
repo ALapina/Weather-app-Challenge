@@ -1,24 +1,24 @@
 import React from "react";
+import WeatherInfo from "./WeatherInfo/";
+import WeatherDetails from "./WeatherDetails/";
+
+import styled from "styled-components";
+
+const Main = styled.main`
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  @media ${({ theme }) => theme.mediaQueries.bellow568} {
+    flex-direction: column;
+  }
+`;
 
 function App() {
   return (
-    <React.Fragment>
-      <div className="App">
-        <header className="App-header">
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
-    </React.Fragment>
+    <Main>
+      <WeatherInfo />
+      <WeatherDetails />
+    </Main>
   );
 }
 
