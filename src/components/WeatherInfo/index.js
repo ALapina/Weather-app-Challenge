@@ -4,6 +4,8 @@ import { MdLocationOn } from "react-icons/md";
 
 import { BsDot } from "react-icons/bs";
 
+import { currentDay } from "../../utils";
+
 import WeatherIcon from "../../images/Shower.png";
 import {
   WeatherInfoContainer,
@@ -12,7 +14,7 @@ import {
   Temperature,
   TempDegrees,
   WeatherCondition,
-  Date,
+  CurrentDate,
   DotIconWrapper,
   Location,
   LocationIcon,
@@ -30,13 +32,13 @@ const WeatherInfo = () => {
           <TempDegrees>&deg;C</TempDegrees>
         </Temperature>
         <WeatherCondition>Shower</WeatherCondition>
-        <Date>
+        <CurrentDate>
           Today
           <DotIconWrapper>
             <BsDot />
           </DotIconWrapper>
-          Fri 5 Jun
-        </Date>
+          {currentDay()}
+        </CurrentDate>
         <Location>
           <LocationIcon>
             <MdLocationOn />

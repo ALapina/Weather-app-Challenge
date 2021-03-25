@@ -31,5 +31,8 @@ This is a solution to the [Weather app](https://devchallenges.io/challenges/mM1U
   - styled-normalize https://github.com/sergeysova/styled-normalize
 
 - react-icons
+
   - library with icons https://react-icons.github.io/react-icons
   - npm https://www.npmjs.com/package/react-icons
+
+- [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString) to define current date
