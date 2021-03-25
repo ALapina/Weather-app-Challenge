@@ -16,7 +16,6 @@ export const WeatherInfoContainer = styled.section`
 `;
 
 export const WeatherImgWrap = styled.div`
-  /* border: 1px solid aquamarine; */
   height: 70%;
   width: 100%;
   display: grid;
