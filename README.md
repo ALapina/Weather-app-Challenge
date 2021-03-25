@@ -8,7 +8,7 @@
 
 **WORK IN PROGRESS!!!**
 
-This is a solution to the [Weather app](https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv) challenge on devchallenges.
+This is a solution to the [Weather app](https://devchallenges.io/challenges/mM1UIenRhK808W8qmLWv) challenge on [devchallenges.io](https://devchallenges.io).
 
 ## 🔗 Live Link / Demo Link:
 
