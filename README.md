@@ -36,3 +36,11 @@ This is a solution to the [Weather app](https://devchallenges.io/challenges/mM1U
   - npm https://www.npmjs.com/package/react-icons
 
 - [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString) to define current date
+
+css elips что бы в конце слова обрезать его на 3 точки
+
+https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+
+https://blog.logrocket.com/detect-location-and-local-timezone-of-users-in-javascript-3d9523c011b9/
+
+https://www.bigdatacloud.com/geocoding-apis/free-reverse-geocode-to-city-api
