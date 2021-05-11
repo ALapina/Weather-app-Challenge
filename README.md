@@ -24,23 +24,26 @@ This is a solution to the [Weather app](https://devchallenges.io/challenges/mM1U
 
 ## Additional
 
-- Styled components
+- **Styled components**
 
   - css color variables (themes) https://styled-components.com/docs/advanced#theming
   - global styles https://scalablecss.com/styled-components-global-styles/
   - styled-normalize https://github.com/sergeysova/styled-normalize
 
-- react-icons
+- **react-icons**
 
   - library with icons https://react-icons.github.io/react-icons
   - npm https://www.npmjs.com/package/react-icons
 
 - [toLocaleString()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString) to define current date
 
-css elips что бы в конце слова обрезать его на 3 точки
+- **Dealing with long word in text box:**
 
-https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+  - https://justmarkup.com/articles/2015-07-31-dealing-with-long-words-in-css/
+  - Location text can be long, so I added width in % to textbox and overflow-wrap: break-word;
 
-https://blog.logrocket.com/detect-location-and-local-timezone-of-users-in-javascript-3d9523c011b9/
-
-https://www.bigdatacloud.com/geocoding-apis/free-reverse-geocode-to-city-api
+- **User Location**
+  - We can find user location by Geolocation API and IP address.
+  - On Weather Info we find location by IP address, but on find current location button we will use Geo API
+  - https://blog.logrocket.com/detect-location-and-local-timezone-of-users-in-javascript-3d9523c011b9/
+  - https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API

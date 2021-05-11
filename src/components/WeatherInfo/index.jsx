@@ -1,6 +1,6 @@
 import React from "react";
 
-import { MdLocationOn } from "react-icons/md";
+// import { MdLocationOn } from "react-icons/md";
 
 import { BsDot } from "react-icons/bs";
 
@@ -18,11 +18,11 @@ import {
   WeatherCondition,
   CurrentDate,
   DotIconWrapper,
-  Location,
-  LocationIcon,
 } from "./WeatherInfoElements";
 
-const WeatherInfo = ({ userLocation }) => {
+import Location from "../Location";
+
+const WeatherInfo = () => {
   return (
     <WeatherInfoContainer>
       <WeatherImgWrap>
@@ -41,13 +41,7 @@ const WeatherInfo = ({ userLocation }) => {
           </DotIconWrapper>
           {currentDay()}
         </CurrentDate>
-        <Location>
-          <LocationIcon>
-            <MdLocationOn />
-          </LocationIcon>
-          {userLocation ? userLocation : "No Data Available"}
-          {/* <UserLocation /> */}
-        </Location>
+        <Location />
       </WeatherInfoWrapper>
     </WeatherInfoContainer>
   );
