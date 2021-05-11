@@ -1,6 +1,6 @@
 import React from "react";
-import WeatherInfo from "./WeatherInfo/";
-import WeatherDetails from "./WeatherDetails/";
+import WeatherInfo from "./WeatherInfo";
+import WeatherDetails from "./WeatherDetails";
 
 import styled from "styled-components";
 
