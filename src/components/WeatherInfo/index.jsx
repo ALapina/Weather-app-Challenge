@@ -1,14 +1,7 @@
 import React from "react";
-
-// import { MdLocationOn } from "react-icons/md";
-
 import { BsDot } from "react-icons/bs";
+import { currentDay, weatherIcon } from "../../utils";
 
-// import UserLocation from "../UserLocation";
-
-import { currentDay } from "../../utils";
-
-import WeatherIcon from "../../images/Shower.png";
 import {
   WeatherInfoContainer,
   WeatherImgWrap,
@@ -22,18 +15,34 @@ import {
 
 import Location from "../Location";
 
-const WeatherInfo = () => {
+const WeatherInfo = ({ userLocation, currentDayWeatherData }) => {
+  const currentWeather = currentDayWeatherData.weather;
+  let icon;
+  let condition;
+  let temperature = Math.round(currentDayWeatherData.temp);
+
+  currentWeather &&
+    currentWeather.forEach((weatherEl) => {
+      icon = weatherEl.icon;
+      condition = weatherEl.main;
+    });
+
+  const displayWeatherIcon = () => {
+    if (!weatherIcon(icon)) {
+      return <div></div>;
+    }
+    return <img src={weatherIcon(icon)} alt="weather icon" />;
+  };
+
   return (
     <WeatherInfoContainer>
-      <WeatherImgWrap>
-        <img src={WeatherIcon} alt="weather" />
-      </WeatherImgWrap>
+      <WeatherImgWrap>{displayWeatherIcon()}</WeatherImgWrap>
       <WeatherInfoWrapper>
         <Temperature>
-          15
+          {temperature || ""}
           <TempDegrees>&deg;C</TempDegrees>
         </Temperature>
-        <WeatherCondition>Shower</WeatherCondition>
+        <WeatherCondition>{condition}</WeatherCondition>
         <CurrentDate>
           Today
           <DotIconWrapper>
@@ -41,7 +50,7 @@ const WeatherInfo = () => {
           </DotIconWrapper>
           {currentDay()}
         </CurrentDate>
-        <Location />
+        <Location userLocation={userLocation} />
       </WeatherInfoWrapper>
     </WeatherInfoContainer>
   );

@@ -1,6 +1,5 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import { MdLocationOn } from "react-icons/md";
-import axios from "axios";
 
 import {
   CurrentLocationWrapper,
@@ -8,21 +7,7 @@ import {
   LocationTextWrapper,
 } from "./LocationElements";
 
-const Location = () => {
-  const [userLocation, setUserLocation] = useState(null);
-
-  useEffect(() => {
-    findUserLocationByIP();
-  }, []);
-
-  // find user location by IP
-  const findUserLocationByIP = async () => {
-    const response = await axios
-      .get("https://extreme-ip-lookup.com/json/")
-      .catch((error) => console.error(error));
-    setUserLocation(response.data.city);
-  };
-
+const Location = ({ userLocation }) => {
   return (
     <CurrentLocationWrapper>
       <LocationIconWrapper>

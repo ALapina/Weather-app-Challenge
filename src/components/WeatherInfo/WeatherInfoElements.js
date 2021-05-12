@@ -64,16 +64,3 @@ export const DotIconWrapper = styled.span`
   margin-right: 0.5rem;
   display: flex;
 `;
-
-export const Location = styled.div`
-  font-weight: 600;
-  font-size: 1.125rem;
-  line-height: 21px;
-  color: ${({ theme }) => theme.colors.grey};
-  margin-bottom: 2rem;
-  display: flex;
-`;
-
-export const LocationIcon = styled.div`
-  padding-right: 0.5rem;
-`;
