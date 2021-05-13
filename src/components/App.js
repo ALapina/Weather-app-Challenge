@@ -37,7 +37,7 @@ function App() {
           lon: responseLocation.data.lon,
           exclude: "alerts,minutely,hourly",
           units: "metric",
-          appid: "",
+          appid: process.env.REACT_APP_API_KEY,
         },
       })
       .catch((error) => console.error(error));

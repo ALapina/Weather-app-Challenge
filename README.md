@@ -53,3 +53,8 @@ This is a solution to the [Weather app](https://devchallenges.io/challenges/mM1U
   - https://openweathermap.org/
   - https://openweathermap.org/api/one-call-api
   - icons https://openweathermap.org/weather-conditions#How-to-get-icon-URL
+- **How to save API key secretly**
+  - https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
+  - https://www.npmjs.com/package/dotenv
+  - But with create react app it's easy https://create-react-app.dev/docs/adding-custom-environment-variables/
+  - https://create-react-app.dev/docs/adding-custom-environment-variables/#adding-development-environment-variables-in-env
