@@ -43,7 +43,18 @@ This is a solution to the [Weather app](https://devchallenges.io/challenges/mM1U
   - Location text can be long, so I added width in % to textbox and overflow-wrap: break-word;
 
 - **User Location**
+
   - We can find user location by Geolocation API and IP address.
   - On Weather Info we find location by IP address, but on find current location button we will use Geo API
   - https://blog.logrocket.com/detect-location-and-local-timezone-of-users-in-javascript-3d9523c011b9/
   - https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API
+
+- **Weather API**
+  - https://openweathermap.org/
+  - https://openweathermap.org/api/one-call-api
+  - icons https://openweathermap.org/weather-conditions#How-to-get-icon-URL
+- **How to save API key secretly**
+  - https://www.twilio.com/blog/2017/08/working-with-environment-variables-in-node-js.html
+  - https://www.npmjs.com/package/dotenv
+  - But with create react app it's easy https://create-react-app.dev/docs/adding-custom-environment-variables/
+  - https://create-react-app.dev/docs/adding-custom-environment-variables/#adding-development-environment-variables-in-env
